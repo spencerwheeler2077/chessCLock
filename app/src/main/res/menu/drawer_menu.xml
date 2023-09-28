@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id='@+id/timer_item'
+            android:icon="@drawable/ic_baseline_timer_24"
+            android:title="Timer"
+            android:checked="true"/>
+        <item
+            android:id='@+id/input_item'
+            android:icon="@drawable/ic_baseline_input_24"
+            android:title="Input" />
+        <item
+            android:id='@+id/history_item'
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="Past Games" />
+        <item
+            android:id="@+id/draw_item"
+            android:icon="@drawable/ic_draw_icon"
+            android:title="Draw Game" />
+    </group>
+</menu>
